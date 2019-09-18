@@ -24,16 +24,19 @@ class ColorContainer extends Component {
   }
   render(){
     return (
-      <div className="ColorContainer">
-        {this.props.colorList.map((color, i) => {
-          let style = {backgroundColor: this.state.colorList[i]}
-          return <ColorBlock
-            color={style}
-            changeColor={this.changeColor}
-            value={i}
-            key={i}
-          />
-        })}
+      <div>
+      <h1 className="ColorContainer--title">Click any square to change it's color</h1>
+        <div className="ColorContainer">
+          {this.props.colorList.map((color, i) => {
+            let style = {backgroundColor: this.state.colorList[i]}
+            return <ColorBlock
+              color={style}
+              changeColor={this.changeColor}
+              value={i}
+              key={i}
+            />
+          })}
+        </div>
       </div>
     );
   }
