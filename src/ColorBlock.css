@@ -1,6 +1,14 @@
+.ColorBlock {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  max-width: 1000px;
+  width: 100%;
+}
 .ColorBlock--block {
-  border-radius: 2px;
+  border-radius: 10px;
   flex: auto;
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  margin: 5px;
+  width: 200px;
 }

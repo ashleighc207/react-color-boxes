@@ -12,8 +12,13 @@ class ColorBlock extends Component {
   render(){
     return (
       <div className="ColorBlock">
-        <div onClick={this.handleClick} className="ColorBlock--block">
-        </div>
+        {this.props.colorList.map(color => {
+          const styles = {backgroundColor: color}
+          console.log(styles)
+            return <div onClick={this.handleClick} className="ColorBlock--block"
+            style={styles}>
+            </div>
+        })}
       </div>
     );
   }

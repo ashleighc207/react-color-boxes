@@ -1,7 +1,5 @@
 .ColorContainer {
-  display: flex;
-  flex-wrap: wrap;
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 1000px;
   width: 100%;
 }
