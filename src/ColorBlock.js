@@ -1,7 +1,7 @@
 import React from 'react';
 import './ColorBlock.css';
 
-class ColorBlock extends Componenet {
+class ColorBlock extends Component {
   render(){
     return (
       <div className="App">

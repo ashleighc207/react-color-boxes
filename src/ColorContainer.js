@@ -1,7 +1,7 @@
 import React from 'react';
 import './ColorContainer.css';
 
-class ColorContainer extends Componenet {
+class ColorContainer extends Component {
   render(){
     return (
       <div className="App">
