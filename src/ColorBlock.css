@@ -1,7 +1,6 @@
-.ColorBlock {
+.ColorBlock--block {
   border-radius: 2px;
   flex: auto;
   height: 100px;
   width: 100px;
-
 }
