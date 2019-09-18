@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import ColorContainer from './ColorContainer.js';
 
 function App() {
   return (
     <div className="App">
-    <h1>Test</h1>
+      <ColorContainer />
     </div>
   );
 }

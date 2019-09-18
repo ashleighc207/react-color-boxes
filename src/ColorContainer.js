@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './ColorContainer.css';
+import ColorBlock from './ColorBlock.js';
 
 class ColorContainer extends Component {
   render(){
     return (
-      <div className="App">
-      <h1>Test</h1>
+      <div className="ColorContainer">
+        <ColorBlock />
       </div>
     );
   }
