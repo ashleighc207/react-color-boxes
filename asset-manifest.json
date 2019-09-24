@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-color-boxes/static/css/main.243dcdc1.chunk.css",
+    "main.js": "/react-color-boxes/static/js/main.233a56be.chunk.js",
+    "main.js.map": "/react-color-boxes/static/js/main.233a56be.chunk.js.map",
+    "runtime~main.js": "/react-color-boxes/static/js/runtime~main.c53b9fb3.js",
+    "runtime~main.js.map": "/react-color-boxes/static/js/runtime~main.c53b9fb3.js.map",
+    "static/js/2.bd383059.chunk.js": "/react-color-boxes/static/js/2.bd383059.chunk.js",
+    "static/js/2.bd383059.chunk.js.map": "/react-color-boxes/static/js/2.bd383059.chunk.js.map",
+    "index.html": "/react-color-boxes/index.html",
+    "precache-manifest.3af2190e1dae5c04c715b9fc77492fb1.js": "/react-color-boxes/precache-manifest.3af2190e1dae5c04c715b9fc77492fb1.js",
+    "service-worker.js": "/react-color-boxes/service-worker.js",
+    "static/css/main.243dcdc1.chunk.css.map": "/react-color-boxes/static/css/main.243dcdc1.chunk.css.map"
+  }
+}
